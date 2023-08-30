@@ -23,7 +23,7 @@ public class GoogleSearchTest {
         System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com/");
+        driver.get("https://tasks.evalartapp.com/automatization/forms/test");
 
     }
 
